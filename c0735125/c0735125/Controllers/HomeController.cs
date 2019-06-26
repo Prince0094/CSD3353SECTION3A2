@@ -26,5 +26,11 @@ namespace c0735125.Controllers
 
             return View();
         }
+        public ActionResult ViewStart()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
